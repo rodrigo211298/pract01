@@ -1,0 +1,45 @@
+﻿1. Diagramar una clase llamada producto, con sus atributos y operaciones.
+
+PRODUCTO
+------------------
+NOMBRE_PROD
+DESCRIPCION_PROD
+PRECIO
+------------------
+INSERTAR
+ELIMINAR
+MODIFICAR
+******************************************************************************************************************************************
+2. ¿Qué es un jar y para qué sirve?
+Rspta: Es un tipo de archivo de JAVA que permite ejecutar aplicaciones y herramienta escritas.
+***********************************************************************************************************************************
+3. ¿Qué es el patrón MVC?
+Rspta: Es un tipo de modelo de vista controlador.
+****************************************************************************************************************************************
+4. Declarar un array y asignarle valores.
+
+int [ ] loteria_numer = new int [25];
+int i;
+for (i=0;i<loteria_numer.length; i ++) {
+            loteria_numer[i]=i + 1;
+        System.out.println(loteria_numer[i] );
+        }
+**************************************************************************************************************************************
+4.1 ¿Cómo se obtiene el primer valor del array?
+Rspta: el primer array se obtiene desde el primer elemento que es 0.  
+**************************************************************************************************************************************
+4.2 ¿y el último?
+Rspta: Y el ultimo valor seria la cantidad que se le esta otorgando al array.
+***************************************************************************************************************************************
+4.3 ¿Con qué estructura de control se itera/recorre un array? de un ejemplo.
+Rspta:
+for (i=0;i<loteria_numer.length; i ++) {
+            loteria_numer[i]=i + 1;
+**************************************************************************************************************************************
+5. En la empresa Apple Inc. necesitan un software para gestionar sus dispositivos, es necesario hacer un crud de la tabla dispositivo con lo campos, nombre, precio, tipo. Se tiene que mostrar la lista de productos y una opción para registrar, actualizar y borrar dispositivos.
+
+Rspta:
+create database PRODUCTO;
+create table DISPOSITIVOS(NOMBRE varchar(20), PRECIO int, TIPO varchar(20));
+insert into DISPOSITIVOS values ('IPHONE11',5000,MOVIL);
+
